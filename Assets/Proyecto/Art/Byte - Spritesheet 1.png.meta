@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 150
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -108,7 +108,154 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Byte - Spritesheet 1_0
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 1600
+        width: 231
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ffbfcb49f6fcd84bb80e620989c08f7
+      internalID: -69979979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Byte - Spritesheet 1_1
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 1600
+        width: 231
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfcd1f83c070e224583271055a6d7883
+      internalID: -807047473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Byte - Spritesheet 1_2
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 1600
+        width: 231
+        height: 211
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b322140912e6d4a871b3bb2a54c6e9
+      internalID: -855310812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Byte - Spritesheet 1_3
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 640
+        width: 230
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d59cb024f9c0444856de6fd199517e
+      internalID: 2002626172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Byte - Spritesheet 1_4
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 640
+        width: 230
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee86f7270582b8b4bbcadfff7756670b
+      internalID: -1404889530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Byte - Spritesheet 1_5
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 639
+        width: 230
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52858aece10642a40b575590546bde36
+      internalID: 588471714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Byte - Spritesheet 1_6
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 639
+        width: 230
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ca69af39d1fef4cb41c1d5c876a009
+      internalID: 1715006367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +266,14 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Byte - Spritesheet 1_0: -69979979
+      Byte - Spritesheet 1_1: -807047473
+      Byte - Spritesheet 1_2: -855310812
+      Byte - Spritesheet 1_3: 2002626172
+      Byte - Spritesheet 1_4: -1404889530
+      Byte - Spritesheet 1_5: 588471714
+      Byte - Spritesheet 1_6: 1715006367
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
