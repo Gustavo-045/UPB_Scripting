@@ -215,7 +215,7 @@ MonoBehaviour:
   - PathElementPosition: {x: 0, y: 2.31, z: 0}
     Delay: 0
   AlignmentMode: 0
-  MovementSpeed: 3
+  MovementSpeed: 1
   AccelerationType: 0
   Acceleration:
     serializedVersion: 2
