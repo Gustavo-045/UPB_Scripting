@@ -22,7 +22,7 @@ public class HabilidadVelocidad : MonoBehaviour, MMEventListener<PickableItemEve
 
     public virtual void OnMMEvent(PickableItemEvent e)
     {
-        if (e.PickedItem.name == "EstrellaVelocidad")
+        if (e.PickedItem.name == "PowerUpRun")
         {
             ActivarHabilidadVelocidad();
         }

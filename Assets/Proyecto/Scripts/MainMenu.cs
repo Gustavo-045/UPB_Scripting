@@ -31,6 +31,11 @@ public class MainMenu : MonoBehaviour
         PanelCreditos.SetActive(true);
     }
 
+    public void ReloadLevel1()
+    {
+        SceneManager.LoadScene("level 1");
+    }
+
  
 
 

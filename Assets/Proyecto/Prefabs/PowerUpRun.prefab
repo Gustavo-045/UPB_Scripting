@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 21200000}
   - component: {fileID: 9500000}
   - component: {fileID: 5800000}
-  - component: {fileID: 11400000}
   - component: {fileID: 114000012703423242}
+  - component: {fileID: 1483756459688994491}
   m_Layer: 0
-  m_Name: coin
+  m_Name: PowerUpRun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 1f5ea7f50a2619346b1b19d941801fef, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a2a187a9cde817046bf1c3f403147ab3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -99,7 +99,7 @@ Animator:
   m_GameObject: {fileID: 100000}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b3564b1cf5f01bc4cbf426f712f00a39, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 1
@@ -142,29 +142,9 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.049988884, y: 0.14996938}
   serializedVersion: 2
-  m_Radius: 0.56
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7c57d25de7c44736bb7659207bd44d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PickFeedbacks: {fileID: 2907385207341429283}
-  DisableObjectOnPick: 1
-  DisableRendererOnPick: 0
-  DisableColliderOnPick: 0
-  DisableTargetObjectOnPick: 0
-  TargetObjectToDisable: {fileID: 0}
-  TargetObjectDisableDelay: 1
-  PointsToAdd: 10
+  m_Radius: 1.759769
 --- !u!114 &114000012703423242
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -187,6 +167,25 @@ MonoBehaviour:
   IgnoreCheckpointsAlwaysRespawn: 1
   AssociatedCheckpoints: []
   RespawnFeedback: {fileID: 0}
+--- !u!114 &1483756459688994491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3beb37cba6ad2fd47b94f168354a5952, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
 --- !u!1 &4232038737386787826
 GameObject:
   m_ObjectHideFlags: 0

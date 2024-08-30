@@ -19,7 +19,7 @@ public class IncrementarSalud : MonoBehaviour, MMEventListener<PickableItemEvent
 
     public virtual void OnMMEvent(PickableItemEvent e)
     {
-        if (e.PickedItem.name == "Estrella")
+        if (e.PickedItem.name == "PowerUpSalud")
         {
             IncrementarSaludJugador();
         }
