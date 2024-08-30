@@ -6,6 +6,8 @@ public class MainMenu : MonoBehaviour
 {
 
     public GameObject PanelInstrucciones;
+    public GameObject PanelCreditos;
+
 
     // Start is called before the first frame update
     public void OnButton()
@@ -16,12 +18,20 @@ public class MainMenu : MonoBehaviour
       public void BackToMenu()
     {
         PanelInstrucciones.SetActive(false);
+        PanelCreditos.SetActive(false);
     }
 
         public void LoadInstructions()
     {
         PanelInstrucciones.SetActive(true);
     }
+
+          public void LoadCredits()
+    {
+        PanelCreditos.SetActive(true);
+    }
+
+ 
 
 
     // Update is called once per frame
