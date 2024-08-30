@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,7 +108,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Flying Bug - Spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 0
+        width: 320.25
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e99e5961e303da44189f7e496527a684
+      internalID: 43103571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying Bug - Spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 0
+        width: 320.25
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00affc05476dd1449b94a115bb3b5d7
+      internalID: 1816843133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying Bug - Spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 0
+        width: 320.25
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f60de33d3fb37149b73ae4109fb3ebf
+      internalID: 2088876314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flying Bug - Spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 0
+        width: 320.25
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9962af52b8ed4a5489b1fae9993d7fca
+      internalID: -838892657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -119,7 +203,11 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Flying Bug - Spritesheet_0: 43103571
+      Flying Bug - Spritesheet_1: 1816843133
+      Flying Bug - Spritesheet_2: 2088876314
+      Flying Bug - Spritesheet_3: -838892657
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
