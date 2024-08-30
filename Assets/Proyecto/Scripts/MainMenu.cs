@@ -8,6 +8,10 @@ public class MainMenu : MonoBehaviour
     public GameObject PanelInstrucciones;
     public GameObject PanelCreditos;
 
+    public GameObject WikiPanel;
+
+    public GameObject BytePanel;
+
 
     // Start is called before the first frame update
     public void OnButton()
@@ -34,6 +38,26 @@ public class MainMenu : MonoBehaviour
     public void ReloadLevel1()
     {
         SceneManager.LoadScene("level 1");
+    }
+
+    public void OpenWiki()
+    {
+        WikiPanel.SetActive(true);
+    }
+
+        public void CloseWiki()
+    {
+        WikiPanel.SetActive(false);
+    }
+
+            public void OpenByte()
+    {
+        BytePanel.SetActive(true);
+    }
+
+                public void CloseByte()
+    {
+        BytePanel.SetActive(false);
     }
 
  
