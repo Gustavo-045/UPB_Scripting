@@ -297,6 +297,7 @@ GameObject:
   - component: {fileID: 213527047}
   - component: {fileID: 213527048}
   - component: {fileID: 213527049}
+  - component: {fileID: 213527050}
   m_Layer: 0
   m_Name: LevelManager
   m_TagString: Untagged
@@ -450,6 +451,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e68413ec98a9e4545ab33f7e8720dd3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &213527050
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213527044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed8ca04ced5295d4d940149011ce12d8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   duracionRun: 5
@@ -2831,7 +2844,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100000, guid: 699946e2b560afd438cb24f4b499b736,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1704733845}
+      addedObject: {fileID: 1704733852}
   m_SourcePrefab: {fileID: 100100000, guid: 699946e2b560afd438cb24f4b499b736, type: 3}
 --- !u!1 &1494325978
 GameObject:
@@ -3240,7 +3253,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1451421361}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1704733845
+--- !u!114 &1704733852
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3249,7 +3262,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1704733838}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbe7fdf6635b4254da2a4ed3ca8f46a7, type: 3}
+  m_Script: {fileID: 11500000, guid: 3beb37cba6ad2fd47b94f168354a5952, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   PickFeedbacks: {fileID: 0}
