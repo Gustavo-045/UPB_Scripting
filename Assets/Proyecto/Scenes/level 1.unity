@@ -296,6 +296,7 @@ GameObject:
   - component: {fileID: 213527046}
   - component: {fileID: 213527047}
   - component: {fileID: 213527048}
+  - component: {fileID: 213527049}
   m_Layer: 0
   m_Name: LevelManager
   m_TagString: Untagged
@@ -439,6 +440,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f096ac51cf371214d91ceb604c26635d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &213527049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213527044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e68413ec98a9e4545ab33f7e8720dd3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  duracionRun: 5
 --- !u!1 &216837897
 GameObject:
   m_ObjectHideFlags: 0
@@ -2768,7 +2782,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 699946e2b560afd438cb24f4b499b736, type: 3}
       propertyPath: m_Name
-      value: coin (16)
+      value: EstrellaVelocidad
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 699946e2b560afd438cb24f4b499b736, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2813,7 +2827,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: 699946e2b560afd438cb24f4b499b736,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1704733845}
   m_SourcePrefab: {fileID: 100100000, guid: 699946e2b560afd438cb24f4b499b736, type: 3}
 --- !u!1 &1494325978
 GameObject:
@@ -3216,6 +3234,31 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 699946e2b560afd438cb24f4b499b736, type: 3}
+--- !u!1 &1704733838 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 699946e2b560afd438cb24f4b499b736,
+    type: 3}
+  m_PrefabInstance: {fileID: 1451421361}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1704733845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1704733838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbe7fdf6635b4254da2a4ed3ca8f46a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PickFeedbacks: {fileID: 0}
+  DisableObjectOnPick: 1
+  DisableRendererOnPick: 0
+  DisableColliderOnPick: 0
+  DisableTargetObjectOnPick: 0
+  TargetObjectToDisable: {fileID: 0}
+  TargetObjectDisableDelay: 1
 --- !u!1001 &1718526877
 PrefabInstance:
   m_ObjectHideFlags: 0
