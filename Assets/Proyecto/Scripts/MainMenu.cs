@@ -12,6 +12,8 @@ public class MainMenu : MonoBehaviour
 
     public GameObject BytePanel;
 
+    public GameObject panelLogros;
+
 
     // Start is called before the first frame update
     public void OnButton()
@@ -23,6 +25,7 @@ public class MainMenu : MonoBehaviour
     {
         PanelInstrucciones.SetActive(false);
         PanelCreditos.SetActive(false);
+        panelLogros.SetActive(false);
     }
 
         public void LoadInstructions()
@@ -33,6 +36,11 @@ public class MainMenu : MonoBehaviour
           public void LoadCredits()
     {
         PanelCreditos.SetActive(true);
+    }
+    
+          public void LoadLogros()
+    {
+        panelLogros.SetActive(true);
     }
 
     public void ReloadLevel1()
@@ -49,6 +57,7 @@ public class MainMenu : MonoBehaviour
     {
         WikiPanel.SetActive(false);
     }
+    
 
             public void OpenByte()
     {

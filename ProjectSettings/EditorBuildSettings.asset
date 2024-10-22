@@ -236,4 +236,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Proyecto/Scenes/MainMenu.unity
     guid: 4774757dbe9722b4dabc41dd1b4589a6
+  - enabled: 1
+    path: Assets/Proyecto/Scenes/Win.unity
+    guid: 662f973d43151e345ac138d25366651b
   m_configObjects: {}

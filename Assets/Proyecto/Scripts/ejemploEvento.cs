@@ -36,11 +36,18 @@ public class ejemploEvento : MonoBehaviour, MMEventListener<PickableItemEvent>
             GameManager.Instance.AddPoints(100);
             GameManager.Instance.GainLives(2);
             contador_monedas = 0;
+            
         }
         else
         {
             contador_monedas++;
+            MMAchievementManager.AddProgress ("Coin", 1);
         }
        
+    }
+
+        public void checkAchievement()
+    {
+        
     }
 }

@@ -8,6 +8,7 @@ TagManager:
   - Music
   - Background
   - NoMask
+  - LogroChecker
   layers:
   - Default
   - TransparentFX

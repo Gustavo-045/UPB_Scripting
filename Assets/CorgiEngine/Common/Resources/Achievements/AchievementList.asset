@@ -3,8 +3,9 @@
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -13,60 +14,72 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AchievementsListID: AchievementsList
   Achievements:
-  - AchievementID: PrincessInAnotherCastle
+  - AchievementID: Avast
     AchievementType: 0
     HiddenAchievement: 0
     UnlockedStatus: 0
-    Title: Your Princess is in Another Castle
-    Description: Reach the end of a level
+    Title: De(A)VASTado
+    Description: Encuentra al anti-virus Avast
     Points: 200
-    LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
-    UnlockedImage: {fileID: 21300004, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    LockedImage: {fileID: 21300000, guid: 55863d4f335e6b547b7df6b4e9b2c7bc, type: 3}
+    UnlockedImage: {fileID: 21300000, guid: 55863d4f335e6b547b7df6b4e9b2c7bc, type: 3}
     UnlockedSound: {fileID: 0}
     ProgressTarget: 0
     ProgressCurrent: 0
-  - AchievementID: JumpAround
+  - AchievementID: McAfee
     AchievementType: 0
     HiddenAchievement: 0
     UnlockedStatus: 0
-    Title: Jump Around
-    Description: Jump at least 10 times
+    Title: Old Warrior
+    Description: Find the Old McWarrior
     Points: 100
-    LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
-    UnlockedImage: {fileID: 21300000, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    LockedImage: {fileID: 21300000, guid: fee3194f19f5d5541aace8db35d1db6d, type: 3}
+    UnlockedImage: {fileID: 21300000, guid: fee3194f19f5d5541aace8db35d1db6d, type: 3}
     UnlockedSound: {fileID: 0}
     ProgressTarget: 10
     ProgressCurrent: 0
-  - AchievementID: MoneyMoneyMoney
-    AchievementType: 0
+  - AchievementID: Coin
+    AchievementType: 1
     HiddenAchievement: 0
     UnlockedStatus: 0
-    Title: Money Money Money
-    Description: Grab 3 coins
+    Title: Elon Bytes
+    Description: Grab 10 Bytes coins
     Points: 50
-    LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
-    UnlockedImage: {fileID: 21300002, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    LockedImage: {fileID: 21300000, guid: 43ecfd55f40b72645af79d9e3174da1f, type: 3}
+    UnlockedImage: {fileID: 21300000, guid: 43ecfd55f40b72645af79d9e3174da1f, type: 3}
     UnlockedSound: {fileID: 0}
-    ProgressTarget: 3
+    ProgressTarget: 10
     ProgressCurrent: 0
-  - AchievementID: DeathIsOnlyTheBeginning
+  - AchievementID: Portal
     AchievementType: 0
     HiddenAchievement: 0
     UnlockedStatus: 0
-    Title: Death is only the Beginning
-    Description: Die for the first time
+    Title: Server Traveler
+    Description: Travel trougth a portal
     Points: 30
-    LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
-    UnlockedImage: {fileID: 21300008, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    LockedImage: {fileID: 21300000, guid: d373e000fda7153489afcb23db6eb8cd, type: 3}
+    UnlockedImage: {fileID: 21300000, guid: d373e000fda7153489afcb23db6eb8cd, type: 3}
     UnlockedSound: {fileID: 0}
     ProgressTarget: 0
     ProgressCurrent: 0
-  - AchievementID: Medic
+  - AchievementID: WinGame
     AchievementType: 0
     HiddenAchievement: 0
     UnlockedStatus: 0
-    Title: Medic !
-    Description: Grab a health bonus
+    Title: Virus Slayer!
+    Description: Finish Game!
+    Points: 25
+    LockedImage: {fileID: 21300000, guid: 43e8dc3717eeb5d43855663eb0b72f40, type: 3}
+    UnlockedImage: {fileID: 21300000, guid: 43e8dc3717eeb5d43855663eb0b72f40, type: 3}
+    UnlockedSound: {fileID: 0}
+    ProgressTarget: 0
+    ProgressCurrent: 0
+  - AchievementID: xxx
+    AchievementType: 0
+    HiddenAchievement: 0
+    UnlockedStatus: 0
+    Title: De(A)VASTado
+    Description: Encuentra al anti-virus Avast
     Points: 25
     LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
     UnlockedImage: {fileID: 21300006, guid: fa6d364a5a0575245859952062aea14b, type: 3}
